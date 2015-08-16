@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    
+    	<TextView
+         	android:id="@+id/ind_search_result_greeting"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/hello_world"/>
+    	
+      <TextView
+         	android:id="@+id/ind_search_result_merchantInfo"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@+id/ind_search_result_greeting"
+	        android:layout_toLeftOf="@+id/ind_search_result_distance"
+	        android:textSize="20sp"
+	        android:textStyle="bold"
+	        android:text="@string/hello_world"/>
+     
+      <TextView
+         	android:id="@+id/ind_search_result_location"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@+id/ind_search_result_merchantInfo"
+	        android:layout_toLeftOf="@+id/ind_search_result_distance"
+	        android:padding="2dp"
+	        android:text="@string/hello_world"/>
+      
+      <TextView
+         	android:id="@+id/ind_search_result_distance"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@+id/ind_search_result_greeting"
+	        android:layout_alignParentRight="true"
+	        android:padding="2dp"
+	        android:text="@string/hello_world"/>
+
+</RelativeLayout>

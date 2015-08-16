@@ -1,0 +1,87 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_main"
+    android:orientation="vertical">
+    
+     <TextView
+         	android:id="@+id/messageMainFragment"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:gravity="center"
+	        android:padding="10dp"
+	        android:text="@string/hello_world"/>
+     
+     <EditText
+         	android:id="@+id/search_text"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:padding="10dp"
+	        android:hint="@string/search"/>
+     
+     <EditText
+         	android:id="@+id/searchAddress1_text"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:padding="10dp"
+	        android:hint="@string/address1"/>
+     
+     <LinearLayout 
+    		android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:gravity="center"
+		    android:orientation="horizontal">
+     
+	      <EditText
+	         	android:id="@+id/searchCity_text"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_weight="5"
+		        android:padding="10dp"
+		        android:hint="@string/city"/>
+	      
+	      <EditText
+	         	android:id="@+id/searchState_text"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_weight="1"
+		        android:padding="10dp"
+		        android:hint="@string/state"/>
+	      
+	      <EditText
+	         	android:id="@+id/searchZipCode_text"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_weight="2"
+		        android:padding="10dp"
+		        android:hint="@string/zip"/>
+	 
+	 </LinearLayout>
+     
+     <LinearLayout 
+    		android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:gravity="center"
+		    android:orientation="horizontal">
+		    
+		    <Button
+			        android:id="@+id/search_button"
+					style="@style/Button"
+					android:layout_weight="1"
+					android:text="@string/search_button" />
+		     
+		    <Button
+			        android:id="@+id/cancel_button"
+					style="@style/Button"
+					android:layout_weight="1"
+					android:text="@string/cancel_button" />
+		    
+		    <Button
+			        android:id="@+id/openCalculator_button"
+					style="@style/Button"
+					android:layout_weight="1"
+					android:text="@string/openCalculator_button" />
+		    
+     </LinearLayout>
+
+</LinearLayout>

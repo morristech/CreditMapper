@@ -1,0 +1,9 @@
+<Spinner xmlns:android="http://schemas.android.com/apk/res/android"
+     android:id="@+id/searchState_text"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:gravity="center"
+     android:entries="@array/state_array"
+     android:prompt="@string/state"/>
+
+
